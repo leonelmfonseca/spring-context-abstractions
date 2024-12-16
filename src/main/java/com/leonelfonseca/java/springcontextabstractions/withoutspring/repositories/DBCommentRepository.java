@@ -1,6 +1,6 @@
-package com.leonelfonseca.java.springcontextabstractions.repositories;
+package com.leonelfonseca.java.springcontextabstractions.withoutspring.repositories;
 
-import com.leonelfonseca.java.springcontextabstractions.model.Comment;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.model.Comment;
 
 public class DBCommentRepository implements CommentRepository {
 

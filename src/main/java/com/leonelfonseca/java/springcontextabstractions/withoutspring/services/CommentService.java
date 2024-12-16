@@ -1,8 +1,8 @@
-package com.leonelfonseca.java.springcontextabstractions.services;
+package com.leonelfonseca.java.springcontextabstractions.withoutspring.services;
 
-import com.leonelfonseca.java.springcontextabstractions.model.Comment;
-import com.leonelfonseca.java.springcontextabstractions.proxies.CommentNotificationProxy;
-import com.leonelfonseca.java.springcontextabstractions.repositories.CommentRepository;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.model.Comment;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.proxies.CommentNotificationProxy;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.repositories.CommentRepository;
 
 public class CommentService {
 

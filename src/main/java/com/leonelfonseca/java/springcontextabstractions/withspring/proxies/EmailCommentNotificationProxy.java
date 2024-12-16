@@ -1,7 +1,9 @@
-package com.leonelfonseca.java.springcontextabstractions.proxies;
+package com.leonelfonseca.java.springcontextabstractions.withspring.proxies;
 
-import com.leonelfonseca.java.springcontextabstractions.model.Comment;
+import com.leonelfonseca.java.springcontextabstractions.withspring.model.Comment;
+import org.springframework.stereotype.Component;
 
+@Component
 public class EmailCommentNotificationProxy implements CommentNotificationProxy {
     @Override
     public void sendComment(Comment comment) {

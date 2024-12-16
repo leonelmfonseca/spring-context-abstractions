@@ -1,4 +1,4 @@
-package com.leonelfonseca.java.springcontextabstractions.model;
+package com.leonelfonseca.java.springcontextabstractions.withoutspring.model;
 
 import lombok.Data;
 

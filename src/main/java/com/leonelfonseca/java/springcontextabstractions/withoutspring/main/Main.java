@@ -1,9 +1,9 @@
-package com.leonelfonseca.java.springcontextabstractions.main;
+package com.leonelfonseca.java.springcontextabstractions.withoutspring.main;
 
-import com.leonelfonseca.java.springcontextabstractions.model.Comment;
-import com.leonelfonseca.java.springcontextabstractions.proxies.EmailCommentNotificationProxy;
-import com.leonelfonseca.java.springcontextabstractions.repositories.DBCommentRepository;
-import com.leonelfonseca.java.springcontextabstractions.services.CommentService;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.model.Comment;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.proxies.EmailCommentNotificationProxy;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.repositories.DBCommentRepository;
+import com.leonelfonseca.java.springcontextabstractions.withoutspring.services.CommentService;
 
 public class Main {
 
