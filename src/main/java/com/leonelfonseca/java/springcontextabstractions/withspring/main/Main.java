@@ -4,18 +4,21 @@ import com.leonelfonseca.java.springcontextabstractions.withspring.model.Comment
 import com.leonelfonseca.java.springcontextabstractions.withspring.proxies.EmailCommentNotificationProxy;
 import com.leonelfonseca.java.springcontextabstractions.withspring.repositories.DBCommentRepository;
 import com.leonelfonseca.java.springcontextabstractions.withspring.services.CommentService;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Main {
+
 
   public static void main(String[] args) {
 
-    var comentRepository = new DBCommentRepository();
+    var commentRepository = new DBCommentRepository();
 
     var commentCommentNotificationProxy =
         new EmailCommentNotificationProxy(); // Creates the instance for the dependencies
 
     // Creates the instance of the service class and providing the dependencies
-    var commentService = new CommentService(comentRepository, commentCommentNotificationProxy);
+    var commentService = new CommentService(commentRepository, commentCommentNotificationProxy);
 
     // Creates an instance of comment to send as a parameter to the publish comment use case
     var comment = new Comment();
